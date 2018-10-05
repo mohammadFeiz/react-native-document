@@ -1,0 +1,4 @@
+mouseDown(e){
+   var x = e.nativeEvent.locationX.toFixed(0);
+   var y = e.nativeEvent.locationY.toFixed(0);
+ }
