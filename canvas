@@ -6,6 +6,8 @@ class App extends Component {
  
   handleCanvas = (canvas) => {
     const ctx = canvas.getContext('2d');
+    canvas.width = Dimensions.get('window').width;
+    canvas.height = Dimensions.get('window').height;
     ctx.fillStyle = 'purple';
     ctx.fillRect(0, 0, 100, 100);
   }
